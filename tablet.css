@@ -1,25 +1,25 @@
-@media screen and (min-width:570px) and (max-width:960px){
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+@media screen and (min-width: 570px) and (max-width: 960px) {
+  .grid {
+    width: 100%;
+  }
+  .iteams {
+    width: 85%;
+    height: 400px;
+  }
+  .iteams img {
+    width: 100%;
+  }
+  .grid-container {
+    width: 100%;
+    gap: 20px;
+  }
+  .featured {
+    width: 98%;
+  }
+  .featured-text {
+    width: 40%;
+  }
+  .featured-text p {
+    width: 90%;
+  }
 }
