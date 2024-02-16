@@ -112,13 +112,11 @@ button i {
   width: 90%;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 5px;
-  row-gap: 40px;
+  gap: 40px;
   width: 80%;
 }
 .iteams {
-  width: 329px;
-  height: 476px;
-  padding: 15px;
+  padding:30px 15px 15px 15px;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
 }
@@ -146,7 +144,7 @@ h3 {
   margin-left: 15px;
 }
 .btn {
-  background-color: var(--footer-color);
+  background:transparent;
   color: var(--btn-color);
   font-size: var(--font-one);
   font-weight: 500;
